@@ -1,0 +1,47 @@
+## Ignore Visual Studio / IDE temporary files, build output, and user-specific files
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code cache and options files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# NuGet Packages
+# If you are using the older packages.config, ignore the packages folder.
+# If you are using modern PackageReference, you don't strictly need this, but it's safe to keep.
+packages/
+!*packages/repositories.config
+
+# Publish output
+*.Publish.xml
+Publish/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows / macOS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
