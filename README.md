@@ -22,8 +22,8 @@ string and count of replaced words.
 ## How to build and run
 
 ```bash
-dotnet build
-dotnet run --project src
+dotnet build src
+dotnet run --project src/src
 ```
 
 ## How to run tests
